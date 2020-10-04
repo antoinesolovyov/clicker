@@ -1,0 +1,28 @@
+.achievement {
+  display: flex;
+
+  width: 48px;
+  height: 48px;
+
+  margin-bottom: 1px;
+
+  outline: 1px solid black;
+}
+
+.achievement:last-child {
+  margin-bottom: 0px;
+}
+
+.disabled {
+  background: grey;
+}
+
+.achievement:hover {
+  cursor: pointer;
+}
+
+.achievement_icon {
+  width: 24px;
+  height: 24px;
+  margin: 12px;
+}

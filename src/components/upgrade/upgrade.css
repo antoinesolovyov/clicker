@@ -1,0 +1,71 @@
+.upgrade {
+  display: flex;
+
+  width: 240px;
+  height: 48px;
+
+  margin-bottom: 1px;
+
+  outline: 1px solid black;
+}
+
+.upgrade:last-child {
+  margin-bottom: 0px;
+}
+
+.disabled {
+  background: grey;
+}
+
+.upgrade:hover {
+  cursor: pointer;
+}
+
+.upgrade_icon {
+  width: 24px;
+  height: 24px;
+  margin: 12px;
+}
+
+.upgrade_description {
+  display: flex;
+  flex-direction: column;
+}
+
+.upgrade_name {
+  display: flex;
+  width: 120px;
+  height: 24px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.upgrade_cost {
+  display: flex;
+  width: 120px;
+  height: 24px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.upgrade_count {
+  margin: auto 16px auto auto;
+  display: table;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}

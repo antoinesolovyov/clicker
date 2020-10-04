@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0px;
+  padding: 0px;
+
+  user-select: none;
+
+  height: 100%;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+
+  margin: 8px;
+}
+
+.achievment-section {
+  display: flex;
+  flex-direction: column;
+
+  margin: 8px;
+}
+
+.clicker-section {
+  display: flex;
+  flex-direction: column;
+
+  margin: 8px;
+}
+
+.upgrade-section {
+  display: flex;
+  flex-direction: column;
+
+  margin: 8px;
+}
+
+.scroll-achievements {
+  display: flex;
+  flex-wrap: wrap;
+  outline: 1px solid black;
+  height: 304px;
+  overflow: scroll;
+}
+
+.scroll-upgrades {
+  outline: 1px solid black;
+  height: 304px;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  height: 0px;
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
